@@ -13,4 +13,4 @@ def dtw():
     x = np.array([[1,1], [2,2], [3,3], [4,4], [5,5]])
     y = np.array([[2,2], [3,3], [4,4]])
     distance, path = fastdtw(x, y)
-    return distance
+    return str(distance)
