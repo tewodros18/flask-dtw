@@ -5,3 +5,4 @@ numpy
 fastdtw==0.3.4
 mediapipe==0.8.7.3
 numpy
+protobuf==3.20.3
