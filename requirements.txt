@@ -1,6 +1,5 @@
 Flask
 Gunicorn
-fastdtw
 pandas==1.3.2
 numpy
 fastdtw==0.3.4
