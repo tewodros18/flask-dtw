@@ -6,7 +6,7 @@ from sign_recorder import SignRecorder
 from utils.dataset_utils import load_reference_signs
 app = Flask(__name__)
 
-videos = []
+videos = ['ha-1', 'ha-2', 'Hu-1']
 # Create a DataFrame of reference signs (name: str, model: SignModel, distance: int)
 reference_signs = load_reference_signs(videos)
 # Object that stores mediapipe results and computes sign similarities
